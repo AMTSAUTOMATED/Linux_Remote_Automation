@@ -16,7 +16,7 @@
 ###           REBOOT WILL TRIGGER FS CHECK AND REPAIR
 
 echo 1 > /proc/sys/kernel/sysrq
-echo r > /proc/sysrq-trigger
+echo o > /proc/sysrq-trigger
 
 ### REMOTELY RESETING EVERY USB DEVICE ON THE PLATFORM ######################
 #############################################################################
